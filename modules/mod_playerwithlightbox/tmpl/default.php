@@ -87,7 +87,7 @@ $(document).ready(function(){
 );
 //]]>
 </script>
-<div class="list_carousel" style="float:left;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
+<div class="list_carousel" style="padding-top:60px;float:left;background-size:240px 300px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
 				<ul id="foo0">
 					<li>
 						<a class="fancybox" href="<?php echo $folder ?>source/1_b.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
