@@ -87,11 +87,11 @@ $(document).ready(function(){
 );
 //]]>
 </script>
-<div class="list_carousel" style="padding-top:60px;float:left;background-size:240px 300px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
+<div class="list_carousel" style="padding-top:60px;float:left;background-size:250px 300px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
 				<ul id="foo0">
 					<li>
-						<a class="fancybox" href="<?php echo $folder ?>source/1_b.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
-							<img width=200 height=270 src="<?php echo $folder ?>source/1_s.jpg" alt="" />
+						<a class="fancybox" href="<?php echo $folder ?>source/montana-228w.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
+							<img width=200 height=270 src="<?php echo $folder ?>source/montana-228w.jpg" alt="" />
 						</a>
 						<div style="font:italic bold 12px/30px arial,sans-serif;line-height:1.1">
 						<font>A year in the cloud,<br/>	This is my first image </font>
