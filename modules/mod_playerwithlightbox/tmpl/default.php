@@ -77,7 +77,7 @@ $(document).ready(function(){
 	$('#foo0').carouFredSel({
 		width: 260,
 		height:350,
-		//auto: false
+		auto: false
 	});
 	
 	$('.fancybox').fancybox();
@@ -87,7 +87,7 @@ $(document).ready(function(){
 );
 //]]>
 </script>
-<div class="list_carousel" style="float:left">
+<div class="list_carousel" style="float:left;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
 				<ul id="foo0">
 					<li>
 						<a class="fancybox" href="<?php echo $folder ?>source/1_b.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
