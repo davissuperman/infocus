@@ -147,6 +147,8 @@ a:hover {
 }
 .haspaddingbottom{
 	padding-bottom:5px;
+	width:200px;
+	height:220px;
 }
 .cineclass{
 	font:italic bold 12px/30px arial,sans-serif;line-height:1.1;
