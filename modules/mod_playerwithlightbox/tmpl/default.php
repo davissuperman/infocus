@@ -87,13 +87,13 @@ $(document).ready(function(){
 );
 //]]>
 </script>
-<div class="list_carousel" style="padding-top:60px;float:left;background-size:250px 300px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
+<div class="list_carousel" style="padding-top:60px;float:left;background-size:250px 338px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
 				<ul id="foo0">
 					<li>
 						<a class="fancybox" href="<?php echo $folder ?>source/montana-228w.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
-							<img width=200 height=270 src="<?php echo $folder ?>source/montana-228w.jpg" alt="" />
+							<img class="haspaddingbottom" width=200 height=270 src="<?php echo $folder ?>source/montana-228w.jpg" alt="" />
 						</a>
-						<div style="font:italic bold 12px/30px arial,sans-serif;line-height:1.1">
+						<div class="cineclass">
 						<font>A year in the cloud,<br/>	This is my first image </font>
 						</div>
 					</li>
@@ -178,7 +178,7 @@ $(document).ready(function(){
 			</div>
 			
 				<div class="list_carousel2 responsive" >
-					<div class="jp-playlist" style="background-color:#000">
+					<div class="jp-playlist" style="background-color:#000;margin-left:20px;">
 							<ul id="foo2"><!-- id="mycarousel" class="jcarousel-skin-tango" -->
 								<!-- The method Playlist.displayPlaylist() uses this unordered list -->
 								<li>c</li>

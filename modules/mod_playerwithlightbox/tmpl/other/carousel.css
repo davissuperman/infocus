@@ -144,3 +144,12 @@ a:hover {
     cursor: pointer;
     background: transparent url(prev-horizontal.png) no-repeat 0 0;
 }
+.haspaddingbottom{
+	padding-bottom:5px;
+}
+.cineclass{
+	font:italic bold 12px/30px arial,sans-serif;line-height:1.1;
+	background-color:white;
+	text-align:left;
+	padding-left:5px;
+}
