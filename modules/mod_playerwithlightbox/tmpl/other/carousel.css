@@ -118,7 +118,7 @@ a:hover {
 	width: 180px;
 	height: 100px;
 	padding: 0;
-	margin-right: 5px;
+	margin-right: 2px;
 	margin-top: 10px;
 	display: block;
 	float: left;
@@ -152,5 +152,9 @@ a:hover {
 	font:italic bold 12px/30px arial,sans-serif;line-height:1.1;
 	background-color:white;
 	text-align:left;
-	padding-left:5px;
+	padding:5px 5px;
+}
+.imagewidth{
+	width:180px;
+	margin-left:-10px;
 }

@@ -27,7 +27,7 @@ $(document).ready(function(){
 		cssSelectorAncestor: "#jp_container_1"
 	}, [
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f1.png>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image1.png>",
 			artist:"Blender Foundation",
 			free:true,
 			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
@@ -36,7 +36,7 @@ $(document).ready(function(){
 			poster:"skin/pink.flag/images/f1.png"
 		},
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f2.png>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image2.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Finding_Nemo_Teaser.m4v",
 			ogv: "http://www.jplayer.org/video/ogv/Finding_Nemo_Teaser.ogv",
@@ -44,7 +44,7 @@ $(document).ready(function(){
 			poster: "http://www.jplayer.org/video/poster/Finding_Nemo_Teaser_640x352.png"
 		},
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f3.png>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image3.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
 			ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
@@ -52,7 +52,7 @@ $(document).ready(function(){
 			poster: "http://www.jplayer.org/video/poster/Incredibles_Teaser_640x272.png"
 		},
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f4.jpg>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image4.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
 			ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
@@ -60,7 +60,7 @@ $(document).ready(function(){
 			poster: "skin/pink.flag/images/f1.png"
 		},
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f5.jpg>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image5.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
 			//ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
@@ -68,7 +68,7 @@ $(document).ready(function(){
 			poster: "skin/pink.flag/images/f5.jpg"
 		},
 		{
-			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f4.jpg>",
+			title:"<img class='imagewidth' height=92 src=<?php echo $folder ?>skin/pink.flag/images/image4.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
 			//ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
@@ -186,7 +186,7 @@ $(document).ready(function(){
 			</div>
 			
 				<div class="list_carousel2 responsive" >
-					<div class="jp-playlist" style="background-color:#000;margin-left:20px;">
+					<div class="jp-playlist" style="background-color:#000;margin-left:20px;padding-bottom:10px;">
 							<ul id="foo2"><!-- id="mycarousel" class="jcarousel-skin-tango" -->
 								<!-- The method Playlist.displayPlaylist() uses this unordered list -->
 								<li>c</li>
@@ -217,6 +217,7 @@ $('#foo2').carouFredSel({
 	prev: '#prev2',
 	next: '#next2',
 	mousewheel: true,
+	padding:[0,10,0,0] ,
 	swipe: {
 		onMouse: true,
 		onTouch: true
