@@ -27,7 +27,7 @@ $(document).ready(function(){
 		cssSelectorAncestor: "#jp_container_1"
 	}, [
 		{
-			title:"<img src=<?php echo $folder ?>skin/pink.flag/images/f1.png>",
+			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f1.png>",
 			artist:"Blender Foundation",
 			free:true,
 			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
@@ -36,7 +36,7 @@ $(document).ready(function(){
 			poster:"skin/pink.flag/images/f1.png"
 		},
 		{
-			title:"<img src=<?php echo $folder ?>skin/pink.flag/images/f2.png>",
+			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f2.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Finding_Nemo_Teaser.m4v",
 			ogv: "http://www.jplayer.org/video/ogv/Finding_Nemo_Teaser.ogv",
@@ -44,7 +44,7 @@ $(document).ready(function(){
 			poster: "http://www.jplayer.org/video/poster/Finding_Nemo_Teaser_640x352.png"
 		},
 		{
-			title:"<img src=<?php echo $folder ?>skin/pink.flag/images/f3.png>",
+			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f3.png>",
 			artist:"Pixar",
 			m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
 			ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
@@ -66,6 +66,14 @@ $(document).ready(function(){
 			//ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
 			//webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
 			poster: "skin/pink.flag/images/f5.jpg"
+		},
+		{
+			title:"<img width=162 height=92 src=<?php echo $folder ?>skin/pink.flag/images/f4.jpg>",
+			artist:"Pixar",
+			m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+			//ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+			//webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
+			poster: "skin/pink.flag/images/f4.jpg"
 		},
 	], {
 		swfPath: "js",
@@ -127,13 +135,13 @@ $(document).ready(function(){
 </div>
 <div>
 	<div id="jp_container_1" class="jp-video jp-video-270p" style="float:right">
-			<div class="jp-type-playlist">
+			<div class="jp-type-playlist" style="background-color:black">
 				<div id="jquery_jplayer_1" class="jp-jplayer" ></div>
 				<div class="jp-gui">
 					<div class="jp-video-play">
 						<a href="javascript:;" class="jp-video-play-icon" tabindex="1">play</a>
 					</div>
-					<div class="jp-interface">
+					<div class="jp-interface" style="visibility:hidden">
 						<div class="jp-progress">
 							<div class="jp-seek-bar">
 								<div class="jp-play-bar"></div>
@@ -204,6 +212,7 @@ $(document).ready(function(){
 </div>
 <script>
 $('#foo2').carouFredSel({
+	items: 5,
 	auto: false,
 	prev: '#prev2',
 	next: '#next2',
