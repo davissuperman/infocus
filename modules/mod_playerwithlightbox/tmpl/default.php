@@ -99,20 +99,20 @@ $(document).ready(function(){
 					</li>
 					<li><a class="fancybox" href="<?php echo $folder ?>source/2_b.jpg" data-fancybox-group="gallery" 
 					title="Lorem ipsum dolor sit amet">
-					<img width=200 height=270 src="<?php echo $folder ?>source/2_s.jpg" alt="" /></a>
-					<div style="font:italic bold 12px/30px arial,sans-serif;line-height:1.1">
+					<img  class="haspaddingbottom" width=200 height=270 src="<?php echo $folder ?>source/2_s.jpg" alt="" /></a>
+					<div class="cineclass">
 						<font>A year in the cloud,<br/>	This is my first image </font>
 						</div>
 					</li>
 					<li>
 					<a class="fancybox" href="<?php echo $folder ?>source/3_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
-					<img width=200 height=270 src="<?php echo $folder ?>source/3_s.jpg" alt="" /></a>
-					<div style="font:italic bold 12px/30px arial,sans-serif;line-height:1.1">
+					<img  class="haspaddingbottom" width=200 height=270 src="<?php echo $folder ?>source/3_s.jpg" alt="" /></a>
+					<div class="cineclass">
 						<font>A year in the cloud,<br/>	This is my first image </font>
 						</div></li>
 					<li><a class="fancybox" href="<?php echo $folder ?>source/4_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
-					<img width=200 height=270 src="<?php echo $folder ?>source/4_s.jpg" alt="" /></a>
-					<div style="font:italic bold 12px/30px arial,sans-serif;line-height:1.1">
+					<img  class="haspaddingbottom" width=200 height=270 src="<?php echo $folder ?>source/4_s.jpg" alt="" /></a>
+					<div class="cineclass">
 						<font>A year in the cloud,<br/>	This is my first image </font>
 						</div>
 					</li>
