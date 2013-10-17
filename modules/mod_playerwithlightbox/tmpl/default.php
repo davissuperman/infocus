@@ -226,3 +226,13 @@ $('#foo2').carouFredSel({
 });
 
 </script>
+ <div>
+<span style="background-color:#595656; width:50px;padding:5px;">
+<font color="white" >
+Our clients
+</font>
+</span>
+  <marquee align=top scrollamount="3" height=30 width="830" onmouseout="this.start()" onmouseover="this.stop()"><font>
+	<p>Africa,China,Sony</p></font>
+  </marquee>
+</div>
