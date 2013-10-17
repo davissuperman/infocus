@@ -85,7 +85,7 @@ $(document).ready(function(){
 	$('#foo0').carouFredSel({
 		width: 260,
 		height:350,
-		auto: false
+		//auto: false
 	});
 	
 	$('.fancybox').fancybox();
@@ -95,7 +95,7 @@ $(document).ready(function(){
 );
 //]]>
 </script>
-<div class="list_carousel" style="padding-top:60px;float:left;background-size:250px 338px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
+<div class="list_carousel" style="padding-top:60px;float:left;background-size:257px 346px;background-repeat: no-repeat;background-image:url(<?php echo $folder ?>other/award.png)">
 				<ul id="foo0">
 					<li>
 						<a class="fancybox" href="<?php echo $folder ?>source/montana-228w.jpg" data-fancybox-group="gallery" title="A year in the cloud,<br/>	This is my first image">
@@ -226,13 +226,3 @@ $('#foo2').carouFredSel({
 });
 
 </script>
- <div>
-<span style="background-color:#595656; width:50px;padding:5px;">
-<font color="white" >
-Our clients
-</font>
-</span>
-  <marquee align=top scrollamount="3" height=30 width="830" onmouseout="this.start()" onmouseover="this.stop()"><font>
-	<p>Africa,China,Sony</p></font>
-  </marquee>
-</div>
